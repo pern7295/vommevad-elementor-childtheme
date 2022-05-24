@@ -1,4 +1,4 @@
-var sections = [];
+/*var sections = [];
 
 function loadSections() {
     sections = document.getElementsByClassName("put-menu-item");
@@ -63,4 +63,4 @@ function removeFromCart(event) {
 loadSections();
 addButtonClickEvents();
 
-console.log("Added events to menu buttons.")
+console.log("Added events to menu buttons.")*/
