@@ -6,3 +6,218 @@ Template:  hello-elementor
 Version:  1.0.3           
 */
 
+/*FOOTER TILPASNINGER*/
+.footer-tekst, 
+.footer-tekst a {
+	color: white;
+	text-align: center;
+	font-family: 'Nunito';
+}
+
+.footer-tekst a {
+	color: #F9A23E;
+	font-weight: bold;
+}
+
+.footer-tekst a:hover {
+	color: white;
+}
+
+/*BODY TILPASNINGER*/
+body {
+	margin: auto;
+	max-width: 1600px;
+	background-color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a:link {
+	text-decoration: none;
+}
+/*BRYLLUP*/
+.elementor-39 .elementor-element.elementor-element-ac32875 .elementor-button {
+	width: 100%;}
+
+.elementor-39 .elementor-element.elementor-element-b2e2b1c .elementor-button {
+	width: 100%;
+}
+/*KONTAKTFORMULAR*/
+.wpforms-form .wpforms-field-label {
+	color: white;
+	font-family: 'Montserrat';
+	text-transform: capitalize !important;
+}
+
+div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form textarea {
+	border: 2px solid #f9a23e;
+	background-color: #162024;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-required-label {
+	color: #f9a23e;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+	background-color: #f9a23e;
+	border: none;
+	color: white;
+	font-family: 'Montserrat';
+	text-transform: capitalize;
+	border-radius: 5px;
+	text-align: left;
+	width: 75px;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit]:hover {
+	background-color: white;
+	color: #f9a23e;
+	border: none;
+	width: 75px;
+}
+
+div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form textarea {
+	color: white;
+	font-family: 'Montserrat';
+}
+
+div.wpforms-container-full .wpforms-form label.wpforms-error {
+	color: #f9a23e;
+}
+
+/*KONFIRMATION*/
+.priser a {
+	color:#f9a23e;
+	font-weight: bold;
+}
+
+span.sbi_follow_btn.sbi_custom span {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	
+}
+
+/*---MENUSAMMENSÆTTER---*/
+#hans-menu {
+	position: fixed;
+	z-index: 1;
+	bottom: 11vh;
+	width: 30vw;
+	height: 70vh;
+	margin: 25px;
+	right: 0;
+	overflow-y: scroll;
+	padding: 15px;
+	font-size: 12px;
+	font-family: 'Montserrat';
+}
+
+
+#hans-menu .titel, #hans-menu button, #hans-menu .pris {
+	font-size: 14px;
+}
+
+.put-menu-item {
+	width: 65vw;
+}
+
+.menu-kok-container {
+	background-color: #F4F4F4;
+	padding: 5px;
+	margin: 5px;
+}
+
+.container-kok {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	display: grid;
+	grid-template-columns: 1fr 0.3fr 0.3fr ;
+	grid-template-rows: 1fr;
+	grid-column-gap: 5px;
+	grid-row-gap: 0px;
+}
+
+.pris {
+	margin-top: 0.5rem;
+	text-align: right;
+}
+
+#hans-menu button {
+	border: none;
+	background-color: #F4F4F4;
+	cursor: pointer;
+	color: black;
+}
+
+.vis_menu {
+	cursor: pointer;
+}
+
+/*---SCROLLBAR STYLING---*/
+::-webkit-scrollbar {
+	background-color: white;
+}
+
+/*Sporet*/
+::-webkit-scrollbar-track {
+	box-shadow: 1px 0 5px grey;
+	border-radius: 2px;
+}
+
+/* Farve på bar + kant */
+::-webkit-scrollbar-thumb {
+	background: #162024;
+	border-radius: 2px;
+}
+
+/*  hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #f9a23e;
+}
+
+/*TABLET STYLING*/
+@media screen and (max-width: 1024px) {
+	/*---MENUSAMMENSÆTTER---*/
+#hans-menu {
+	bottom: 5vh;
+	width: 35vw;
+	height: 50vh;
+	margin: 15px;
+}}
+
+/*MOBIL STYLING*/
+@media screen and (max-width: 767px) {
+	.put-menu-item {
+		width: 100vw;
+}
+	.vis_menu {
+		display: none;
+	}
+
+}
+
+
+/*Insta knap*/
+span.sbi_follow_btn.sbi_custom {
+    margin-top: 25px;
+}
+
+a.customize-unpreviewable:hover, #sb_instagram .sbi_follow_btn a:focus {
+    box-shadow: none !important;
+}
+
+#sb_instagram #sbi_load .sbi_load_btn, #sb_instagram .sbi_follow_btn a:hover{
+	color: black !important;
+}
+
+/*Nyhedsbrev knap - virker ikke*/´
+div.wpforms-container-full .wpforms-form button[type=submit] {
+	width: 100px;
+}
+
+.btn-back:hover {
+	cursor: pointer;
+}
